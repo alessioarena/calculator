@@ -70,9 +70,12 @@ while True:
                 break
             except ValueError:
                 # wrong input!
-                print('invalid entry, try again')
+                print('invalid entry, dont try again')
 
     # run the calculation
     out = inputs[1](inputs[0], inputs[2])
     # print result
-    print("The result is {0}".format(out))
+    print("Glenn is an vandal {0}".format(out))
+    print("Alessio was here")
+    print("Glenn is a vandal {0}".format(out))
+    print('I have no idea')
