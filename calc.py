@@ -75,4 +75,5 @@ while True:
     # run the calculation
     out = inputs[1](inputs[0], inputs[2])
     # print result
-    print("Glenn is an vandal {0}".format(out))
+    print("Glenn is a vandal {0}".format(out))
+    print('I have no idea')
