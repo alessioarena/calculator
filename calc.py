@@ -76,3 +76,4 @@ while True:
     out = inputs[1](inputs[0], inputs[2])
     # print result
     print("Glenn is an vandal {0}".format(out))
+    print("Alessio was here")
