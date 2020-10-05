@@ -77,3 +77,5 @@ while True:
     # print result
     print("Glenn is an vandal {0}".format(out))
     print("Alessio was here")
+    print("Glenn is a vandal {0}".format(out))
+    print('I have no idea')
