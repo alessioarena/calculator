@@ -14,6 +14,8 @@ def multiply(x, y):
 
 # This function divides two numbers
 def divide(x, y):
+    if y == 0:
+        return 0
     return x / y
 
 def _is_number(x):
@@ -26,6 +28,7 @@ def _is_number(x):
             raise ValueError
     else:
         raise ValueError
+
 
 operations = {
     '+':add,
